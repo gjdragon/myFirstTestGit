@@ -35,7 +35,7 @@ git commit -a -m "bug fix in tmp branch"
 git switch main
 git merge -m "merge fix to main" tmpbugfix
 git branch
-git rm branch tmpbugfix
+git branch -d tmpbugfix
 #sync to github
 git push -u origin main
 
