@@ -1,3 +1,4 @@
+================examples github =======================
 echo "# myFirstTestGit" >> README.md
 git init
 git add README.md
