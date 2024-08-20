@@ -35,6 +35,8 @@ git switch main
 git merge -m "merge fix to main" tmpbugfix
 git branch
 git rm branch tmpbugfix
+#sync to github
+git push -u origin main
 
 
 
